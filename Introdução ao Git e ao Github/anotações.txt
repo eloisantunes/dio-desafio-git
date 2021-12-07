@@ -1,0 +1,23 @@
+ Sobre o Git
+ 
+> Git é um sistema de controle de versões distribuído
+> Resgistra o histórico de alterações no código e quem realizou a mudança
+> Permite o retorno para versões anteriores e acesso ao código antes da alteração
+> Possibilita o trabalho de vários desenvolvedores simultaneamente no mesmo arquivo
+> Open Source - É um software que qualquer pessoa pode baixar, usar e modificar o código
+
+ Comandos Principais:
+ > git init -> Cria a estrututa inicial do repositório Git no computador local
+ > git status -> Verifica o status das alterações realizadas no repositório
+ > git add -> Adiciona arquivos ao histórico do projeto na Staging
+ > git commit -> Registra/Salva a alteração no repositório
+ > git log -> Permite visualizar as alterações feitas
+ > git show numero-do-commit -> Visualizar informações sobre qualquer Commit
+ > git push -u origin master -> Publica as alterações no repositório remoto
+ > git pull -> Baixa as atualizações do repositório remoto 
+
+
+ Repositório Local	Staging		local.git	Respositório Remoto
+ 	^         ----->         ------>         ------>         ^
+ 	|	  git add.	git commit	 git push	 |
+ 	|________________________________________________________|
